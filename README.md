@@ -1,21 +1,40 @@
-<h1>React calculator app</h1>
-Link: https://myelyu2.github.io/calculator/
+# Calculator App using React.js
+<img width="1439" alt="Screen Shot 2023-02-06 at 2 55 36 PM" src="https://user-images.githubusercontent.com/89800281/217083560-998f8b7b-8ff5-4391-84a4-bb45af9820df.png">
 
-<h3>Intro</h3> I decided to do this project because I thought I needed to showcase the way I do development projects on something as simple as calculator app. The calculator will have simple functions like add, subtract, divide and multiply, with a simple design (because I like simplicity). The process of developing the app will consist of planning, designing, and developing. So, lets begin. </br>
+This project is a simple calculator application built using React.js. The purpose of this project is to showcase the development process for a simple application.
 
-<h3>PLANNING</h3>
-First, as I said we need to plan the project and identify all (or the most important) the features it needs to have. As I said, the calculator will not be fancy, with just simple math functions. In addition, the user must be able to clear the input/output and copy the result from display. So, in general, the main features are:</br>
+## Getting Started
 
-1. Have all numbers from 0 to 9;</br>
-2. Add, subtract, divide, multiply;</br>
-3. Clear input/output;</br>
-4. Copy result to the clipboard;</br>
+#### Prerequisites
+Before you get started, you will need to have Node.js and npm installed on your system. You can check if you already have them by running the following commands in your terminal:
+```
+node -v
+npm -v
+```
 
-<h3>DESIGNING</h3>
-Considering all the features listed above, based on my experience, it will be easy to develop an app if we have a wireframe/layout of the app we want to build first. So, we head on to Figma, create new project and add all the buttons based on the features.</br>
+#### Installing
+To get started, clone the repository to your local machine:
+```
+git clone https://github.com/<your-username>/calculator-app-react.git
+```
 
-One of the design patterns is user familiarity with the system. I am not inventing a new generation calculator, so it must have the same layout of buttons as the regular ones. It is important to keep all buttons on the same positions for the User’s comfort.</br>
+Next, navigate to the project directory and install the dependencies:
+```
+cd calculator-app-react
+npm install
+npm i react-textfit
+```
+This will install the required packages including react-textfit for fitting text in the calculator display.
 
-Now, it looks like a simple calculator. We also identify the color palette for the project in advance because it will be easier to code it afterwards.</br>
+#### Running the App
+To run the app, simply start the development server with the following command:
+```
+npm start
+```
+This will start the development server and you can view the application in your browser at http://localhost:3000.
 
-<img width="907" alt="Screen Shot 2022-05-27 at 2 29 40 PM" src="https://user-images.githubusercontent.com/89800281/170779151-3487101a-4743-4cbe-ba02-4bca5722be56.png">
+
+## Built With
+React.js - JavaScript library for building user interfaces
+
+
