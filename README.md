@@ -1,6 +1,8 @@
 # Calculator App using React.js
 <img width="1439" alt="Screen Shot 2023-02-06 at 2 55 36 PM" src="https://user-images.githubusercontent.com/89800281/217083560-998f8b7b-8ff5-4391-84a4-bb45af9820df.png">
 
+Link: https://myelyu2.github.io/React-Calculator-App/
+
 This project is a simple calculator application built using React.js. The purpose of this project is to showcase the development process for a simple application.
 
 ## Getting Started
